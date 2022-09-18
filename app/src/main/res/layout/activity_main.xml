@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/flashcardQuestion"
+        android:layout_marginTop="50dip"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/who_was_the_first_person_to_orbit_in_space"
+        android:textSize="40sp"
+        android:background="@drawable/card_bg"
+        android:textColor="@color/white"
+        android:elevation="5dp"/>
+
+    <TextView
+        android:id="@+id/flashcardAnswer"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+        android:background="@drawable/card_bg2"
+        android:gravity="center"
+        android:text="@string/cosmonaut_yuri_a_gagarin"
+        android:textColor="@color/light_blue"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/answerOne"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/flashcardQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:background="@color/lightest_blue"
+        android:gravity="center"
+        android:text="@string/neil_armstrong"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/answerTwo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/answerOne"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightest_blue"
+        android:gravity="center"
+        android:text="@string/buzz_aldrin"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/answerThree"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/answerTwo"
+        android:layout_marginTop="26dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightest_blue"
+        android:gravity="center"
+        android:text="@string/yuri_a_gagarin"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/answerThree"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/reset_choices"
+        android:textSize="15sp"
+        android:backgroundTint="@color/black"/>
+
+    <ImageView
+        android:id="@+id/hide"
+        android:layout_width="45dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/reset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/visible" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="146dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/hide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/new_project__3_" />
+
+</android.widget.RelativeLayout>

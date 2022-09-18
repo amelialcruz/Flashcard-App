@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlashcardSample</string>
+    <string name="cosmonaut_yuri_a_gagarin">Cosmonaut Yuri A. Gagarin</string>
+    <string name="who_was_the_first_person_to_orbit_in_space">Who was the first person to orbit in space?</string>
+    <string name="neil_armstrong">Neil Armstrong</string>
+    <string name="buzz_aldrin">Buzz Aldrin</string>
+    <string name="yuri_a_gagarin">Yuri A. Gagarin</string>
+    <string name="reset_choices">Reset Choices</string>
+</resources>
